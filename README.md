@@ -71,6 +71,8 @@ def analyze_image():
 ```
 
 #### слой нейронной сети
+- `flask_docs_app.py` сервер на Flask, обращается к классам классификации и распознавания объектов. Запустить `flask run`
+
 - `docs_classification_model.py` для определения типа документа, `get_doc_type(image)`
 
 - `mrz_model.py` для распознавания объектов на документах с машиночитаемым кодом, `recognize_text_on_passport(image_read)`
